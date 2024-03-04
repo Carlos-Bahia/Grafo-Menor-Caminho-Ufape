@@ -1,14 +1,24 @@
 package br.edu.ufape;
 
 public class Aresta {
+	private String nomeRua;
     private Vertice inicio;
     private Vertice destino;
     private double peso;
 
-    public Aresta(Vertice inicio, Vertice destino, double peso){
+    public Aresta(String nomeRua, Vertice inicio, Vertice destino, double peso){
+    	this.nomeRua = nomeRua;
         this.inicio = inicio;
         this.destino = destino;
         this.peso = peso;
+    }
+    
+    public String getNomeRua() {
+        return nomeRua;
+    }
+    
+    public void setNomeRua(String nomeRua) {
+    	this.nomeRua = nomeRua;
     }
 
     public Vertice getInicio() {
@@ -34,6 +44,8 @@ public class Aresta {
     public void setPeso(double peso) {
         this.peso = peso;
     }
+   
+
 }
 
 
