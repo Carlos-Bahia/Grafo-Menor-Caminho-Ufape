@@ -3,13 +3,7 @@ package br.edu.ufape;
 import java.util.*;
 
 public class DijsktraAlgorithm {
-    private Grafo grafo;
-
-    public DijsktraAlgorithm(Grafo grafo) {
-        this.grafo = grafo;
-    }
-
-    public List<Vertice> menorCaminhoVertices(Vertice origem, Vertice destino) {
+    public static List<Vertice> menorCaminhoVertices(Grafo grafo, Vertice origem, Vertice destino) {
         Map<Vertice, Double> distancia = new HashMap<>();
         Map<Vertice, Vertice> predecessores = new HashMap<>();
         PriorityQueue<Vertice> filaPrioridade = new PriorityQueue<>(Comparator.comparingDouble(distancia::get));
@@ -52,7 +46,7 @@ public class DijsktraAlgorithm {
     }
 
 
-    public List<Aresta> menorCaminhoArestas(List<Vertice> verticesCaminho) {
+    public static List<Aresta> menorCaminhoArestas(Grafo grafo, List<Vertice> verticesCaminho) {
         List<Aresta> arestasCaminho = new ArrayList<>();
 
         for (int i = 0; i < verticesCaminho.size() - 1; i++) {

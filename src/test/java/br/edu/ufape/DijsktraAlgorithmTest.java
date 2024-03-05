@@ -43,15 +43,13 @@ public class DijsktraAlgorithmTest {
         grafo.adicionarAresta(a3_4);
         grafo.adicionarAresta(a4_0);
 
-        DijsktraAlgorithm dijska = new DijsktraAlgorithm(grafo);
-
         // Teste do menor caminho entre v0 e v4
-        List<Vertice> menorCaminho = dijska.menorCaminhoVertices(v0, v4);
+        List<Vertice> menorCaminho = DijsktraAlgorithm.menorCaminhoVertices(grafo, v0, v4);
         List<Vertice> expectedCaminho = Arrays.asList(v0, v2, v4);
         assertEquals(expectedCaminho, menorCaminho);
 
         // Teste do menor caminho entre v3 e v1
-        menorCaminho = dijska.menorCaminhoVertices(v3, v1);
+        menorCaminho = DijsktraAlgorithm.menorCaminhoVertices(grafo, v3, v1);
         expectedCaminho = Arrays.asList(v3, v4, v2, v1);
         assertEquals(expectedCaminho, menorCaminho);
     }
@@ -91,19 +89,17 @@ public class DijsktraAlgorithmTest {
         grafo.adicionarAresta(a3_4);
         grafo.adicionarAresta(a4_0);
 
-        DijsktraAlgorithm dijska = new DijsktraAlgorithm(grafo);
-
         // Teste do menor caminho entre v0 e v4
-        List<Vertice> menorCaminhoVertices = dijska.menorCaminhoVertices(v0, v4);
-        List<Aresta> menorCaminhoArestas = dijska.menorCaminhoArestas(menorCaminhoVertices);
+        List<Vertice> menorCaminhoVertices = DijsktraAlgorithm.menorCaminhoVertices(grafo, v0, v4);
+        List<Aresta> menorCaminhoArestas = DijsktraAlgorithm.menorCaminhoArestas(grafo, menorCaminhoVertices);
 
         assertEquals(2, menorCaminhoArestas.size());
         assertEquals(a0_2, menorCaminhoArestas.get(0));
         assertEquals(a2_4, menorCaminhoArestas.get(1));
 
         // Teste do menor caminho entre v3 e v1
-        menorCaminhoVertices = dijska.menorCaminhoVertices(v3, v1);
-        menorCaminhoArestas = dijska.menorCaminhoArestas(menorCaminhoVertices);
+        menorCaminhoVertices = DijsktraAlgorithm.menorCaminhoVertices(grafo, v3, v1);
+        menorCaminhoArestas = DijsktraAlgorithm.menorCaminhoArestas(grafo, menorCaminhoVertices);
 
         assertEquals(3, menorCaminhoArestas.size());
         assertEquals(a3_4, menorCaminhoArestas.get(0));

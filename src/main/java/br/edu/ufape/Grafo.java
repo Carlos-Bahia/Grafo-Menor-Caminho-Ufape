@@ -7,17 +7,24 @@ import java.util.Map;
 
 public class Grafo {
     private List<Vertice> vertices;
+    private Map<Integer, Vertice> verticesMap;
     private List<Aresta> arestas;
     private Map<Vertice, List<Aresta>> listaAdjacencia;
 
     public Grafo() {
         this.vertices = new ArrayList<>();
+        this.verticesMap = new HashMap<>();
         this.arestas = new ArrayList<>();
         this.listaAdjacencia = new HashMap<>();;
     }
 
+    public Vertice procurarVertice(int id){
+        return verticesMap.get(id);
+    }
+
     public void adicionarVertice(Vertice vertice) {
         vertices.add(vertice);
+        verticesMap.put(vertice.getId(), vertice);
         listaAdjacencia.put(vertice, new ArrayList<>());
     }
 
