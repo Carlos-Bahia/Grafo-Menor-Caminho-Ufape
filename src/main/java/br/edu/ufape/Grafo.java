@@ -23,7 +23,10 @@ public class Grafo {
 
     public void adicionarAresta(Aresta aresta) {
         arestas.add(aresta);
-        listaAdjacencia.get(aresta.getInicio()).add(aresta);
+        if(!getListaAdjacencia().get(aresta.getInicio()).contains(aresta)) {
+            listaAdjacencia.get(aresta.getInicio()).add(aresta);
+            listaAdjacencia.get(aresta.getDestino()).add(aresta);
+        }
     }
     public List<Vertice> getVertices() {
         return vertices;

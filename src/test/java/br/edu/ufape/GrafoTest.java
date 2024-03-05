@@ -6,9 +6,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 
-class GrafoTest {
+public class GrafoTest {
 
-	private Grafo grafo;
+    private Grafo grafo;
 
     @Before
     public void setUp() {
@@ -31,6 +31,7 @@ class GrafoTest {
 
         grafo.adicionarVertice(v1);
         grafo.adicionarVertice(v2);
+        grafo.adicionarAresta(aresta);
         grafo.adicionarAresta(aresta);
 
         assertTrue(grafo.getArestas().contains(aresta));
