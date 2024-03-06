@@ -4,6 +4,10 @@ import java.util.*;
 
 public class DijsktraAlgorithm {
     public static List<Vertice> menorCaminhoVertices(Grafo grafo, Vertice origem, Vertice destino) {
+        if(origem == destino){
+            return List.of(origem);
+        }
+
         Map<Vertice, Double> distancia = new HashMap<>();
         Map<Vertice, Vertice> predecessores = new HashMap<>();
         PriorityQueue<Vertice> filaPrioridade = new PriorityQueue<>(Comparator.comparingDouble(distancia::get));
@@ -63,4 +67,45 @@ public class DijsktraAlgorithm {
 
         return arestasCaminho;
     }
+
+    public static void printArestasCaminho(List<Aresta> menorCaminho){
+        int distancia = 0;
+        System.out.println("\nPara percorrer o menor caminho, será necessário percorrer a(s) seguinte(s) rua(s): ");
+        String anterior = "";
+        for(int i = 0; i < menorCaminho.size(); i++){
+            Aresta aresta = menorCaminho.get(i);
+            if(!aresta.getNomeRua().equals(anterior)){
+                System.out.print(aresta.getNomeRua());
+                anterior = aresta.getNomeRua();
+                if(i != menorCaminho.size()-1){
+                    System.out.print(" -> ");
+                }
+            }
+            distancia += aresta.getPeso();
+        }
+        System.out.println(".\n\nDistância total: " + distancia + "m.\n");
+    }
+
+
+    public static void printVerticesCaminho(List<Vertice> menorCaminhoVertices, Vertice origem, Vertice destino){
+        if(menorCaminhoVertices.size() == 1 && origem == destino){
+            System.out.println("\nOrigem e Destino sao iguais");
+            return;
+        } else if (menorCaminhoVertices.size() == 1) {
+            System.out.println("\nNao foi possivel encontrar o menor caminho possivel, pois nao existem arestas que os liguem.");
+            return;
+        }
+        System.out.println(("\nPara percorrer o menor caminho, sera necessario percorrer o(s) seguinte(s) vertice(s): "));
+        for(int i = 0; i < menorCaminhoVertices.size(); i++){
+            Vertice vertice = menorCaminhoVertices.get(i);
+            System.out.print(vertice.getId());
+            if(i != menorCaminhoVertices.size()-1){
+                System.out.print(" -> ");
+            } else{
+                System.out.println(".");
+            }
+        }
+    }
+
+
 }

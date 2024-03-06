@@ -17,4 +17,7 @@ public class Vertice {
         return id;
     }
 
+    public String getPontoReferencia(){
+        return pontoReferencia;
+    }
 }

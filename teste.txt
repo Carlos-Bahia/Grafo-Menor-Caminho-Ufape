@@ -1,16 +1,19 @@
 V/0/UFAPE
 V/1
-A/0/1/Av. Bom Pastor/346.0
 V/2
-A/0/2/Av. Bom Pastor/173.0
-A/1/2/Av. Bom Pastor/760.0
 V/3
-A/1/3/Tv. dos Mascates/82.9
 V/4
-A/1/4/Av. Bom Pastor/173
-A/2/4/Av. Bom Pastor/933
 V/5
-A/0/5/Av. Bom Pastor/414
+V/6
+V/7
+A/0/2/Av. Bom Pastor/420.0
+A/1/2/Av. Bom Pastor/760.0
+A/1/3/Tv. dos Mascates/82.9
+A/1/4/Av. Bom Pastor/173.0
+A/2/4/Av. Bom Pastor/933.0
+A/0/5/Av. Bom Pastor/414.0
 A/1/5/Av. Bom Pastor/74.3
-A/2/5/Av. Bom Pastor/102
-A/4/5/Av. Bom Pastor/832
+A/2/5/Av. Bom Pastor/832.0
+A/4/5/Av. Bom Pastor/102.0
+A/2/7/Av. Republicanas/165.4
+A/1/7/Rua Inacio Rodrigues/7658.75

@@ -2,8 +2,8 @@ package br.edu.ufape;
 
 import org.jetbrains.annotations.NotNull;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.*;
+import java.util.List;
 import java.util.Objects;
 
 public class GrafoLoader {
@@ -49,5 +49,30 @@ public class GrafoLoader {
         }
 
         return grafo;
+    }
+
+    public static void atualizarGrafo(String arquivo, Grafo grafo){
+        List<Vertice> vertices = grafo.getVertices();
+        List<Aresta> arestas = grafo.getArestas();
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(arquivo));
+            for(Vertice vertice : vertices){
+                if(vertice.getPontoReferencia() != null){
+                    writer.write("V/"+vertice.getId()+"/"+vertice.getPontoReferencia());
+                    writer.newLine();
+                } else{
+                    writer.write("V/"+vertice.getId());
+                    writer.newLine();
+                }
+            }
+            for (Aresta aresta : arestas) {
+                writer.write("A/"+aresta.getInicio().getId()+"/"+aresta.getDestino().getId()+"/"+aresta.getNomeRua()+"/"+aresta.getPeso());
+                writer.newLine();
+            }
+
+            writer.close();
+        } catch (IOException e) {
+            System.err.println("Erro ao salvar o arquivo: " + e.getMessage());
+        }
     }
 }
