@@ -322,7 +322,8 @@ public class Menu {
                     }
                     System.out.print("\n");
                     break;
-
+                case 4:
+                    break;
                 default:
                     System.out.println("Opção inválida. Por favor, escolha uma opção válida.");
                     break;
