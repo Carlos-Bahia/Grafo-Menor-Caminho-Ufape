@@ -220,3 +220,323 @@ A/75/83/Conexao Rua Deocleciano Soares da Rocha e Rua Oscar Jacinto Godoy/62.6
 V/84
 A/83/84/Rua Oscar Jacinto Godoy/80.8
 A/76/84/Av. Humberto de Melo Granja/62.2
+V/85
+A/14/85/Rua Princesa Isabel/171
+V/86
+A/17/86/Rua Joao Candido da Silva/171
+A/85/86/Rua Belem/62.2
+V/87
+A/19/87/Rua Jose Bonifacio/172
+A/86/87/Rua Belem/61.6
+V/88
+A/87/88/Rua Belem/75
+A/21/88/Rua Gervasio Pires/171
+V/89
+A/88/89/Rua Belem/73.9
+A/89/108/Rua Tomas Antonio Gonzaga/53.7
+V/90
+A/31/90/Rua Tomas Antonio Gonzaga/144
+A/30/90/Rua Estacio de Sa/38.2
+V/91
+A/30/91/Rua Ismael Tino Lima e Silva/49.5
+V/92
+A/91/92/Rua Ismael Tino Lima e Silva/63.6
+V/93
+A/92/93/Rua Ismael Tino Lima e Silva/62.2
+V/94
+A/93/94/Rua Ismael Tino Lima e Silva/65.4
+V/95
+A/94/95/Rua Ismael Tino Lima e Silva/63.5
+V/96
+A/95/96/Rua Ismael Tino Lima e Silva/60.2
+V/97
+A/96/97/Rua Ismael Tino Lima e Silva/69.3
+V/98
+A/97/98/Rua Ismael Tino Lima e Silva/71.3
+V/99
+A/98/99/Rua Ismael Tino Lima e Silva/74.6
+V/100
+A/99/100/Rua Ismael Tino Lima e Silva/74.4
+V/101
+A/100/101/Av. Lions Club/137
+V/102
+A/101/102/Rua Antonio de Almeida/76.1
+A/99/102/Rua Dr. Godofredo de Barros Melo/150
+V/103
+A/102/103/Rua Antonio de Almeida/69.8
+A/98/103/Rua Antonio Cesario Brasileiro/164
+V/104
+A/103/104/Rua Antonio de Almeida/74.2
+A/97/104/Rua Dom Sebastiao Leme/175
+V/105
+A/104/105/Rua Antonio de Almeida/58.9
+A/96/105/Rua Pedro Alvares Cabral/189
+V/106
+A/105/106/Rua Antonio de Almeida/75.4
+A/95/106/Rua Pero Vaz de Caminha/202
+V/107
+A/106/107/Rua Antonio de Almeida/53.9
+A/94/107/Rua Frei Henrique de Coimbra/219
+V/108
+A/107/108/Rua Antonio de Almeida/185
+V/109
+A/108/109/Rua Tomas Antonio Gonzaga/56.4
+A/31/109/Rua Tomas Antonio Gonzaga/56.6
+V/110
+A/31/110/Rua Jose do Patrocinio/101
+A/110/111/Rua Estacio de Sa/49.4
+V/111
+A/90/111/Rua Estacio de Sa/122
+A/92/111/Rua Dom Duarte da Costa/103
+V/112
+A/107/112/Rua Frei Henrique de Coimbra/54.6
+A/89/112/Rua Belem/190
+V/113
+A/110/113/Rua Estacio de Sa/39.4
+A/93/113/Rua Tome de Souza/152
+V/114
+A/107/114/Rua Estacio de Sa/75
+A/113/114/Rua Estacio de Sa/28.3
+A/109/114/Tv. Tomas Antonio Gonzaga/129
+V/115
+V/116
+V/117
+V/118
+V/119
+V/120
+V/121
+V/122
+V/123
+V/124
+V/125
+V/126
+V/127
+V/128/Jatobá
+V/129
+V/130
+V/131
+V/132
+V/133
+V/134
+V/135
+V/136
+V/137
+V/138
+V/139/Deco oficina
+V/140
+V/141
+V/142
+V/143
+V/144
+V/145
+V/146
+V/147
+V/148
+V/149
+V/150
+V/151
+V/152
+V/153
+V/154
+V/155
+V/156/+FIT
+V/157
+V/158
+V/159
+V/160
+V/161
+V/162
+V/163
+V/164/Popular Supermercado
+V/165
+V/166
+V/167
+V/168
+V/169/Sobral Calçados
+V/170
+V/171/Escola José Brasileiro
+V/172/Touro Branco
+V/173/Gina Pescados
+V/174/Expresso Cidadão
+V/175/Bar do Soró
+V/176
+V/177
+V/178
+V/179
+V/180
+V/181
+V/182/Rancho Alegre
+V/183/Veneza Diesel
+V/184/Natto
+V/185
+V/186
+V/187
+V/188
+V/189
+V/190
+V/191
+V/192
+V/193
+V/194
+V/195
+V/196
+V/197
+V/198
+V/199
+V/200
+V/201
+V/202
+V/203
+V/204
+V/205
+V/206
+V/207/Itaipava
+V/208
+V/209
+A/92/171/Rua Ismael Tinô Lima E Silva/17.3m
+A/91/171/Rua Ismael Tinô Lima E Silva/46.6m
+A/115/116/BR 424/74.8M
+A/116/117/BR 424/74.8M
+A/117/118/BR 424/26M
+A/118/02/BR 424/172M
+A/82/119/Rua Dos Farrapos/23.9m
+A/119/120/BR 424/238M
+A/120/070/BR 424/21.9M
+A/78/121/Av. Profa. Julia Brasileiro Vila Nova/46.2M
+A/121/122/Av. Profa. Julia Brasileiro Vila Nova/18.7M
+A/122/123/Av. Profa. Julia Brasileiro Vila Nova/17.1M
+A/132/124/Av. Profa. Julia Brasileiro Vila Nova/22.3M
+A/124/119/BR 424/406M
+A/02/125/BR 424/374M
+A/125/16/Rua Luiz Burgos/333m
+A/125/126/BR 424/88.6M
+A/126/27/Rua Princesa Isabel/90m
+A/126/127/BR 424/128M
+A/127/28/Rua José Bonifácio/86.6m
+A/127/128/BR 424/76.4m
+A/128/23/Rua Gervásio Pires/183m
+A/128/129/BR 424/131m
+A/129/29/Rua Alberides Pereira De Carvalho/186m
+A/129/91/Rua José Dedé De Godoy/212m
+A/129/130/BR 424/73m
+A/130/92/Rua Dom Duarte Da Costa/210m
+A/130/131/BR 424/61.4m
+A/131/172/Rua Tomé De Souza/52.9m
+A/131/93/Rua Tomé De Souza/157m
+A/131/93/Rua Tomé De Souza/211m
+A/131/132/BR 424/63.3m
+A/132/93/Rua Frei Henrique De Coimbra/210m
+A/132/133/BR 424/64.5M
+A/133/95/Rua Pero Vaz De Caminha/213m
+A/133/134/BR 424/61.7
+A/134/96/Rua Pedro Alvares Cabral/213m
+A/134/135/BR 424/60.3m
+A/135/97/Rua Dom Sebastião Leme/216m
+A/135/136/BR 424/72.7M
+A/136/98/Rua Antônio Cesário Brasileiro/215m
+A/136/137/BR 424/76.4M
+A/137/099/Rua Dr. Godofredo De Barros Melo/203m
+A/137/138/BR 424/43.4m
+A/138/139/BR 424/33.9m
+A/139/140/BR 424/42.6M
+A/140/141/BR 424/55.4M
+A/141/142/BR 424/46.5M
+A/142/143/BR 424/53M
+A/143/100/Rua Ismael Tino Lima E Silva/60.7M
+A/143/144/BR 424/126
+A/144/145/BR 424/100
+A/145/204/BR 424/75.6
+A/204/203/BR 424/29.8
+A/203/202/BR 424/27.9
+A/202/200/Rua Vereador João Câmara Guimarães/55
+A/200/201/Rua Dr. Jardim/102
+A/201/146/Rua João Paulo Da Silva/61.1
+A/200/196/Rua Vereador João Câmara Guimarães/76
+A/196/197/Rua Vereador João Câmara Guimarães/69.2
+A/197/198/Rua Vereador João Câmara Guimarães/74.3
+A/198/199/Rua Vereador João Câmara Guimarães/73.7
+A/140/206/Av. Lions Club/23
+A/205/201/Rua Dr. Jardim/97.8
+A/205/101/Rua Antonio De Almeida/56.2m
+A/101/173/Rua Antonio De Almeida/55.3m
+A/173/102/Rua Antonio De Almeida/19.5m
+A/146/147/Rua João Paulo Da Silva/72.9
+A/147/148/Rua João Paulo Da Silva/71.4
+A/148/149/Rua João Paulo Da Silva/74.5
+A/149/150/Rua João Paulo Da Silva/60.2
+A/149/175/Rua João Paulo Da Silva/14.9
+A/175/150/Rua João Paulo Da Silva/44.7
+A/101/146/Av. Lions Club/91.4
+A/146/196/Av. Lions Club/100
+A/146/174/Av. Lions Club/49.4
+A/174/196/Av. Lions Club/52.8
+A/102/147/Rua Dr. Godofredo De Barros Melo/85.8
+A/147/197/Rua Dr. Godofredo De Barros Melo/104
+A/103/148/Rua Antonio Cesario Brasileiro/78.9
+A/148/198/Rua Antonio Cesario Brasileiro/104
+A/104/149/Rua Dom Sebastiao Leme/74.4
+A/149/199/Rua Dom Sebastiao Leme/107
+A/105/150/Rua Pedro Alvares Cabral/67.7
+A/151/112/Rua Belem/56.9
+A/112/152/Rua Frei Henrique De Coimbra/34.3
+A/151/152/Rua Francisca Amaral Tino/52.1
+A/152/153/Rua Francisca Amaral Tino/98.4
+A/153/155/Rua Francisca Amaral Tino/73.8
+A/155/157/Rua Francisca Amaral Tino/75.1
+A/157/159/Rua Francisca Amaral Tino/36.7
+A/159/162/Rua Francisca Amaral Tino/39.2
+A/162/163/Rua Francisca Amaral Tino/28
+A/163/164/Av. Profa. Julia Brasileiro Vila Nova/22.7
+A/163/165/Av. Profa. Julia Brasileiro Vila Nova/35.3
+A/164/165/Av. Profa. Julia Brasileiro Vila Nova/12.5
+A/165/167/Av. Profa. Julia Brasileiro Vila Nova/54.5
+A/167/168/Av. Profa. Julia Brasileiro Vila Nova/123
+A/168/170/Av. Profa. Julia Brasileiro Vila Nova/42.8
+A/170/10/Av. Profa. Julia Brasileiro Vila Nova/34.4
+A/4/169/Rua Luiz Burgos/32.7
+A/4/168/Rua Luiz Burgos/60.1
+A/168/169/Rua Luiz Burgos/28
+A/153/154/Tv. Aparecida/77.2
+A/89/155/Rua Tomas Antonio Gonzaga/106
+A/89/156/Rua Tomas Antonio Gonzaga/40.3
+A/156/155/Rua Tomas Antonio Gonzaga/65.2
+A/88/158/Rua Gervasio Pires/42.9
+A/158/157/Rua Gervasio Pires/92.9
+A/158/161/Praça Manoel Luís Nascimento/48
+A/161/160/Praça Manoel Luís Nascimento/36.7
+A/159/161/Praça Manoel Luís Nascimento/55
+A/159/160/Praça Manoel Luís Nascimento/38.6
+A/87/166/Rua Jose Bonifacio/116
+A/166/165/Rua Jose Bonifacio/41.8
+A/86/167/Rua Dos Abolicionistas/145
+A/115/195/BR 424/61
+A/195/70/BR 424/42.8
+A/195/194/BR 424/33.5
+A/194/193/Estrada Sem Nome/22.3
+A/193/192/Estrada Sem Nome/25
+A/192/191/Estrada Sem Nome/44.3
+A/191/190/Estrada Sem Nome/69.7
+A/190/189/Estrada Sem Nome/54
+A/189/188/Estrada Sem Nome/129
+A/188/187/Estrada Sem Nome/492
+A/187/186/Estrada Sem Nome/13.5
+A/186/185/Estrada Sem Nome/20.3
+A/185/184/BR 424/102
+A/184/207/BR 424/405
+A/207/183/BR 424/138
+A/183/182/BR 424/90.6
+A/182/181/BR 424/67.4
+A/181/180/BR 424/12.3
+A/180/179/BR 424/18.6
+A/179/178/BR 424/18.3
+A/178/177/BR 424/14
+A/177/176/BR 424/20.2
+A/176/124/BR 424/19.4
+A/177/208/BR 424/15.4
+A/208/209/BR 424/15.1
+A/209/122/BR 424/18.8
+A/184/210/BR 424/65.6
+A/207/210/BR 424/339
+A/190/210/Av. Parque Alvorada/527
+A/194/120/BR 424/43.5
+
