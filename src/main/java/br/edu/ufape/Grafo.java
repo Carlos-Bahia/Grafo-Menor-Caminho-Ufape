@@ -25,12 +25,22 @@ public class Grafo {
         return verticePontoMap.get(nome);
     }
     public void adicionarVertice(Vertice vertice) {
-        vertices.add(vertice);
-        verticesMap.put(vertice.getId(), vertice);
-        if(vertice.getPontoReferencia() != null){
-            verticePontoMap.put(vertice.getPontoReferencia().toLowerCase(), vertice);
+        if (!verticesMap.containsKey(vertice.getId())) {
+            vertices.add(vertice);
+            verticesMap.put(vertice.getId(), vertice);
+            if (vertice.getPontoReferencia() != null) {
+                String pontoReferenciaLowerCase = vertice.getPontoReferencia().toLowerCase();
+
+                if (!verticePontoMap.containsKey(pontoReferenciaLowerCase)) {
+                    verticePontoMap.put(vertice.getPontoReferencia().toLowerCase(), vertice);
+                } else {
+                    System.out.println("O ponto de referencia '" + vertice.getPontoReferencia() + "' ja existe em outro vertice. Por favor digite outro.");
+                }
+            }
+            listaAdjacencia.put(vertice, new ArrayList<>());
+        } else {
+            System.out.println("Esse id " + vertice.getId() + " ja existe em um vertice. Por favor digite outro");
         }
-        listaAdjacencia.put(vertice, new ArrayList<>());
     }
 
     public void adicionarAresta(Aresta aresta) {

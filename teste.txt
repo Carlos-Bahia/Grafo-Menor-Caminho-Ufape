@@ -1,19 +1,222 @@
 V/0/UFAPE
 V/1
+A/0/1/Av. Bom Pastor/346.0
 V/2
-V/3
-V/4
-V/5
-V/6
-V/7
-A/0/2/Av. Bom Pastor/420.0
+A/0/2/Av. Bom Pastor/173.0
 A/1/2/Av. Bom Pastor/760.0
+V/3
 A/1/3/Tv. dos Mascates/82.9
-A/1/4/Av. Bom Pastor/173.0
-A/2/4/Av. Bom Pastor/933.0
-A/0/5/Av. Bom Pastor/414.0
+V/4
+A/1/4/Av. Bom Pastor/173
+A/2/4/Av. Bom Pastor/933
+V/5
+A/0/5/Av. Bom Pastor/414
 A/1/5/Av. Bom Pastor/74.3
-A/2/5/Av. Bom Pastor/832.0
-A/4/5/Av. Bom Pastor/102.0
-A/2/7/Av. Republicanas/165.4
-A/1/7/Rua Inacio Rodrigues/7658.75
+A/2/5/Av. Bom Pastor/102
+A/4/5/Av. Bom Pastor/832
+V/6
+A/3/6/Av. dos Mascates/98
+V/7
+A/3/7/Rua Dr. Vera Lucia Maciel Cavalcante/35.7
+V/8
+A/7/8/Rua Sao Salvador/92.9
+A/6/8/Rua Jose Duca da Silva/31.7
+V/9
+A/8/9/Rua Jose Duca da Silva/48.2
+A/11/9/Av. Profa. Julia Brasileiro Vila Nova/74.30
+V/10
+A/6/10/AV. dos Mascates/93.3
+A/9/10/Av. Profa. Julia Brasileiro Vila Nova/32.2
+V/11
+A/7/11/Rua Dr. Vera Lucia Maciel Cavalcante/105
+V/12
+A/4/12/Rua Luiz Burgos/95.8
+A/5/12/Conexao Rua Luiz Burgos & AV Bom Pastor/37.1
+V/13
+A/12/13/Rua Luiz Burgos/135
+V/14
+A/13/14/Rua Jose do Patrocinio/76.8
+A/14/15/Rua Princesa Isabel/173
+V/15
+A/15/16/Rua Ismael Tino Lima e Silva/77.8
+V/16
+A/13/16/Rua Luiz Burgos/170
+V/17
+A/14/17/Rua Jose do Patrocinio/61.8
+V/18
+A/17/18/Rua Joao Candido da Silva/170
+A/15/18/Rua Ismael Tino Lima e Silva/62.6
+V/19
+A/17/19/Rua Jose do Patrocinio/60.8
+V/20
+A/19/20/Rua Jose Bonifacio/170
+A/18/20/Rua Ismael Tino Lima e Silva/63.4
+V/21
+A/19/21/Rua Jose do Patrocinio/71.9
+V/22
+A/21/22/Rua Gervasio Pires/170
+A/20/22/Rua Ismael Tino Lima e Silva/70.9
+V/23
+A/22/23/Rua Gervasio Pires/60.2
+V/24
+A/23/24/Rua Estacio de Sa/84.7
+A/20/24/Rua Jose Bonifacio/103
+V/25
+A/24/25/Rua Estacio de Sa/68.5
+A/18/25/Rua Joao Candido da Silva/130
+V/26
+A/25/26/Rua Estacio de Sa/69.4
+A/15/26/Rua Princesa Isabel/163
+V/27
+A/26/27/Rua Princesa Isabel/53.4
+V/28
+A/24/28/Rua Jose Bonifacio/76.8
+A/27/28/TV. Rua Princesa Isabel/128
+V/29
+A/23/29/Rua Estacio de Sa/26.4
+V/30
+A/29/30/Rua Estacio de Sa/54.4
+A/22/30/Rua Ismael Tino Lima e Silva/54.3
+V/31
+A/21/31/Rua Jose do Patrocinio/73.3
+V/32
+A/3/32/Av. dos Mascates/84.1
+V/33
+A/32/33/Rua Prof. Jose Brasileiro Vila Nova/57.3
+A/3/33/Rua Restauracao Pernambucana/73.8
+V/34
+A/33/34/Rua Prof. Jose Brasileiro Vila Nova/133
+A/34/11/Av. Profa. Julia Brasileiro Vila Nova/74.3
+V/35
+A/32/35/Av. dos Mascates/89.9
+V/36
+A/35/36/Rua Belo Horizonte/107
+A/33/36/Rua Restauracao Pernambucana/74
+V/37
+A/36/37/Rua Belo Horizonte/134
+A/34/37/Av. Profa. Julia Brasileiro Vila Nova/74.6
+V/38
+A/35/38/Av. dos Mascates/66.8
+V/39
+A/38/39/Av. dos Mascates/29.9
+V/40
+A/38/40/Av. Humberto de Melo Granja/24.7
+A/39/40/Rua Jose Cordeiro Junior/21.5
+V/41
+A/40/41/Rua Jose Cordeiro Junior/148
+A/36/41/Rua Restauracao Pernambucana/74.4
+V/42
+A/41/42/Rua Jose Cordeiro Junior/132
+A/37/42/Av. Profa. Julia Brasileiro Vila Nova/74.3
+V/43
+A/39/43/Av. dos Mascates/87.8
+V/44
+A/40/44/Av. Humberto de Melo Granja/71.8
+A/43/44/Rua Profa. Maria de Lourdes Brasileiro/72.2
+V/45
+A/44/45/Rua Profa. Maria de Lourdes Brasileiro/152
+A/41/45/Rua Restauracao Pernambucana/75.7
+V/46
+A/45/46/Rua Profa. Maria de Lourdes Brasileiro/130
+A/42/46/Av. Profa. Julia Brasileiro Vila Nova/73.3
+V/47
+A/43/47/Av. dos Mascates/91.7
+V/48
+A/47/48/Rua Afonso Natario/127
+A/44/48/Av. Humberto de Melo Granja/75.8
+V/49
+A/48/49/Rua Afonso Natario/147
+A/45/49/Rua Restauracao Pernambucana/73.7
+V/50
+A/49/50/Rua Afonso Natario/135
+A/46/50/Av. Profa. Julia Brasileiro Vila Nova/76.6
+V/51
+A/47/51/Av. dos Mascates/35
+V/52
+A/51/52/Av. dos Mascates/59
+V/53
+A/52/53/Rua Alipio Medeiros/34
+A/51/53/Rua Farrapos/47.2
+V/54
+A/53/54/Rua Alipio Medeiros/150
+A/48/54/Av. Humberto de Melo Granja/68.9
+V/55
+A/54/55/Rua Alipio Medeiros/149
+A/49/55/Rua Restauracao Pernambucana/70.9
+V/56
+A/55/56/Rua Alipio Medeiros/134
+A/50/56/Av. Profa. Julia Brasileiro Vila Nova/70.9
+V/57
+A/52/57/Av. dos Mascates/85.3
+V/58
+A/53/58/Rua Farrapos/73
+A/57/58/Rua Srg. Jose Petrucio/85.3
+V/59
+A/58/59/Rua Srg. Jose Petrucio/149
+A/54/59/Av. Humberto de Melo Granja/74.4
+V/60
+A/59/60/Rua Srg. Jose Petrucio/152
+A/55/60/Rua Restauracao Pernambucana/74
+V/61
+A/60/61/Rua Srg. Jose Petrucio/130
+A/56/61/Av. Profa. Julia Brasileiro Vila Nova/72.9
+V/62
+A/57/62/Av. dos Mascates/107
+V/63
+A/58/63/Rua Farrapos/90.6
+A/62/63/Rua Joseval Vicente da Silva/150
+V/64
+A/63/64/Rua Joseval Vicente da Silva/153
+V/65
+A/64/65/Av. Humberto de Melo Granja/41.7
+A/59/65/Av. Humberto de Melo Granja/62.9
+V/66
+A/65/66/Tv. Restauracao Pernambucana/152
+A/60/66/Rua Restauracao Pernambucana/63
+V/67
+A/64/67/Rua Joseval Vicente da Silva/150
+A/66/67/Rua Restauracao Pernambucana/46.6
+V/68
+A/67/68/Rua Joseval Vicente da Silva/132
+A/61/68/Av. Profa. Julia Brasileiro Vila Nova/114
+V/69
+A/62/69/Av. dos Mascates/84.2
+V/70
+A/69/70/Av. dos Mascates/105
+V/71
+A/69/71/Rua Deocleciano Soares da Rocha/47.8
+V/72
+A/71/72/Rua Deocleciano Soares da Rocha/44.2
+V/73
+A/72/73/Rua Deocleciano Soares da Rocha/26.3
+V/74
+A/73/74/Rua Deocleciano Soares da Rocha/78.1
+A/63/74/Rua Farrapos/72.4
+V/75
+A/74/75/Rua Deocleciano Soares da Rocha/70.5
+V/76
+A/75/76/Rua Deocleciano Soares da Rocha/84.2
+A/64/76/Av. Humberto de Melo Granja/71.1
+V/77
+A/76/77/Rua Deocleciano Soares da Rocha/155
+A/67/77/Rua Restauracao Pernambucana/76.3
+V/78
+A/77/78/Rua Deocleciano Soares da Rocha/135
+A/68/78/Av. Profa. Julia Brasileiro Vila Nova/79.9
+V/79
+A/71/79/Rua Oscar Jacinto Godoy/55
+V/80
+A/79/80/Rua Oscar Jacinto Godoy/41.9
+A/72/80/Conexao Rua Deocleciano Soares da Rocha e Rua Oscar Jacinto Godoy/58.9
+V/81
+A/80/81/Rua Oscar Jacinto Godoy/24.8
+A/73/81/Conexao Rua Deocleciano Soares da Rocha e Rua Oscar Jacinto Godoy/58.6
+V/82
+A/81/82/Rua Oscar Jacinto Godoy/79.7
+A/74/82/Rua Farrapos/64.9
+V/83
+A/82/83/Rua Oscar Jacinto Godoy/68.3
+A/75/83/Conexao Rua Deocleciano Soares da Rocha e Rua Oscar Jacinto Godoy/62.6
+V/84
+A/83/84/Rua Oscar Jacinto Godoy/80.8
+A/76/84/Av. Humberto de Melo Granja/62.2
