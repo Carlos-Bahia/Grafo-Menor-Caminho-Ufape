@@ -401,7 +401,7 @@ A/120/70/BR 424/21.9
 A/78/121/Av. Profa. Julia Brasileiro Vila Nova/46.2
 A/121/122/Av. Profa. Julia Brasileiro Vila Nova/18.7
 A/122/123/Av. Profa. Julia Brasileiro Vila Nova/17.1
-A/132/124/Av. Profa. Julia Brasileiro Vila Nova/22.3
+A/123/124/Av. Profa. Julia Brasileiro Vila Nova/22.3
 A/124/119/BR 424/406.0
 A/2/125/BR 424/374.0
 A/125/16/Rua Luiz Burgos/333.0
