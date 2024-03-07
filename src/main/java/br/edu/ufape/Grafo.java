@@ -33,13 +33,9 @@ public class Grafo {
 
                 if (!verticePontoMap.containsKey(pontoReferenciaLowerCase)) {
                     verticePontoMap.put(vertice.getPontoReferencia().toLowerCase(), vertice);
-                } else {
-                    System.out.println("O ponto de referencia '" + vertice.getPontoReferencia() + "' ja existe em outro vertice. Por favor digite outro.");
                 }
             }
             listaAdjacencia.put(vertice, new ArrayList<>());
-        } else {
-            System.out.println("Esse id " + vertice.getId() + " ja existe em um vertice. Por favor digite outro");
         }
     }
 
@@ -101,5 +97,13 @@ public class Grafo {
     
     public Map<Vertice, List<Aresta>> getListaAdjacencia() {
         return listaAdjacencia;
+    }
+    
+    public Map<Integer, Vertice> getVerticesMap() {
+        return verticesMap;
+    }
+
+    public Map<String, Vertice> getVerticePontoMap() {
+        return verticePontoMap;
     }
 }

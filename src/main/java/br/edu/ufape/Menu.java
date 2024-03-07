@@ -221,8 +221,13 @@ public class Menu {
                         }
                     }while(id == -1);
 
-                    Vertice vertice = new Vertice(id);
-                    grafo.adicionarVertice(vertice);
+                    // Verifica se o ID já existe antes de adicionar
+                    if (!grafo.getVerticesMap().containsKey(id)) {
+                        Vertice vertice = new Vertice(id);
+                        grafo.adicionarVertice(vertice);
+                    } else {
+                        System.out.println("Esse ID " + id + " já existe em outro vertice. Por favor, digite outro.");
+                    }
                     break;
 
                 case 2:
@@ -244,8 +249,18 @@ public class Menu {
 
                     }
 
-                    Vertice vertice2 = new Vertice(id, ref);
-                    grafo.adicionarVertice(vertice2);
+                 // Verifica se o ID e o ponto de referência já existem antes de adicionar
+                    if (!grafo.getVerticesMap().containsKey(id) && !grafo.getVerticePontoMap().containsKey(ref.toLowerCase())) {
+                        Vertice vertice2 = new Vertice(id, ref);
+                        grafo.adicionarVertice(vertice2);
+                    } else {
+                        if (grafo.getVerticesMap().containsKey(id)) {
+                            System.out.println("Esse ID " + id + " já existe em outro vertice. Por favor, digite outro.");
+                        }
+                        if (grafo.getVerticePontoMap().containsKey(ref.toLowerCase())) {
+                            System.out.println("O ponto de referencia '" + ref + "' já existe em outro vertice. Por favor, digite outro.");
+                        }
+                    }
                     break;
 
                 default:
