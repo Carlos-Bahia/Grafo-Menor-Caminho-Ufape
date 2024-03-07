@@ -88,6 +88,10 @@ public class Grafo {
                 arestas.remove(aresta);
             }
             vertices.remove(vertice);
+            verticesMap.remove(vertice.getId(), vertice);
+            if(vertice.getPontoReferencia() != null) {
+                verticePontoMap.remove(vertice.getPontoReferencia(), vertice);
+            }
         }
     }
 
