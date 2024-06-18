@@ -24,4 +24,4 @@ Executar a Aplicação: Após compilar o projeto, execute a aplicação Java. Vo
 Este projeto foi desenvolvido por [Airton da Silva](https://github.com/airton23),[Carlos Eduardo](https://github.com/Carlos-Bahia) e [Paulo Henrique](https://github.com/PauloHS8) como projeto para a disciplina de Algoritmos e Estrutura de Dados II ministrada pelo professor Igor Vanderlei na UFAPE, período 2023.1.
 
 ## Licença
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](https://github.com/Carlos-Bahia/Grafo-Menor-Caminho-Ufape/blob/main/LICENSE) para obter mais informações.
